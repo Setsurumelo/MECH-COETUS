@@ -1,0 +1,39 @@
+/* src/components/trabajos.css */
+#trabajos {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #444; /* Color del borde más oscuro */
+    border-radius: 8px;
+    background-color: #2c2c2c; /* Fondo oscuro */
+    color: #e0e0e0; /* Color del texto claro */
+}
+
+h2 {
+    text-align: center;
+    color: #e0e0e0; /* Color del título claro */
+}
+
+.trabajos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.trabajos-table th, .trabajos-table td {
+    border: 1px solid #555; /* Borde de las celdas más oscuro */
+    padding: 8px;
+    text-align: left;
+}
+
+.trabajos-table th {
+    background-color: #444; /* Fondo de encabezado oscuro */
+    color: #e0e0e0; /* Texto del encabezado claro */
+}
+
+.trabajos-table tr:nth-child(even) {
+    background-color: #3a3a3a; /* Color alternativo de las filas */
+}
+
+.trabajos-table tr:hover {
+    background-color: #555; /* Color de fondo al pasar el mouse */
+}

@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+}
+
+#empresa {
+  font-family: 'Roboto', sans-serif; /* Cambia la fuente del título */
+  font-size: 120px; /* Aumentar el tamaño del título */
+  text-align: center;
+  margin: 8px 0;
+  color: #66ff66 !important; /* Cambiar el color a verde y usar !important */
+  border-bottom: 3px solid #66ff66; /* Línea verde debajo del título */
+  padding-bottom: 10px; /* Espacio entre el texto y la línea */
+}
+
+#empresa a {
+  color: #66ff66;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#empresa a:hover {
+  color: #99ff99;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  transition: background-color 0.3s, border-color 0.3s;
+  margin: 5px;
+}
+
+nav a:hover {
+  background-color: #1e271e;
+  border-color: #bdffbd;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid green;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}

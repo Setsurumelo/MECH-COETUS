@@ -1,0 +1,65 @@
+#sobre-nosotros {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.contenido {
+    position: relative;
+    z-index: 1;
+    color: #66ff66;
+    text-align: center;
+    padding: 20px;
+}
+
+.equipo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.equipo-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.equipo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+.equipo-card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.equipo-card h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.equipo-card p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
